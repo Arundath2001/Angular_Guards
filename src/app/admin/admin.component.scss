@@ -1,0 +1,14 @@
+.admin{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    margin: 200px auto;
+    max-width: 400px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+}

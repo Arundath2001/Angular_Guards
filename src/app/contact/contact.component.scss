@@ -1,0 +1,14 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 2px solid white;
+    max-width: 300px;
+    padding: 20px;
+    gap: 10px;
+}

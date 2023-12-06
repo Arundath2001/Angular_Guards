@@ -1,0 +1,17 @@
+.logindata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    margin: 200px auto;
+    max-width: 400px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    h5{
+        font-size: 12px;
+    }
+   
+}

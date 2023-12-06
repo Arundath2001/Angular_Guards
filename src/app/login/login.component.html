@@ -1,0 +1,18 @@
+<div class="logindata">
+    <h2>Login</h2>
+    <div>
+      <label for="username">Username: </label>
+      <input type="text" id="username" [(ngModel)]="username" />
+    </div>
+    <div>
+      <label for="password">Password:  </label>
+      <input type="password" id="password" [(ngModel)]="password" />
+    </div>
+    <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+    <button (click)="login()">Login</button>
+    <div>
+        <h5>*(username: user/admin</h5>
+        <h5>password: user/admin)</h5>
+    </div>
+</div>
+  
